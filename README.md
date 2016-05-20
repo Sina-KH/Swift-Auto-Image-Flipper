@@ -36,7 +36,7 @@ Implement `AutoImageFlipperDelegate` in your `UIViewController` and then you can
 optional func autoImageFlipper(autoImageFlipper: AutoImageFlipper, willPlayImage: UIImage, onImageView: UIImageView)
 ```
 
-**This one will be called when an image did player and faded out completely**
+**This one will be called when an image has been played and faded out completely**
 ```sh
 optional func autoImageFlipper(autoImageFlipper: AutoImageFlipper, didPlayImage: UIImage)
 ```
