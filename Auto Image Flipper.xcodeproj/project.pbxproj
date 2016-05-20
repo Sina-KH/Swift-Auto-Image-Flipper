@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		895E58241CEF6E9C00352E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E58231CEF6E9C00352E5B /* AppDelegate.swift */; };
-		895E58261CEF6E9C00352E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E58251CEF6E9C00352E5B /* ViewController.swift */; };
-		895E58291CEF6E9C00352E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895E58271CEF6E9C00352E5B /* Main.storyboard */; };
-		895E582B1CEF6E9C00352E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895E582A1CEF6E9C00352E5B /* Assets.xcassets */; };
-		895E582E1CEF6E9C00352E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895E582C1CEF6E9C00352E5B /* LaunchScreen.storyboard */; };
-		895E58531CEF6F4700352E5B /* AutoImageFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E58521CEF6F4700352E5B /* AutoImageFlipper.swift */; };
-		895E58551CEF77D600352E5B /* AutoImageFlipperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E58541CEF77D600352E5B /* AutoImageFlipperDelegate.swift */; };
-		895E585B1CEF7FA900352E5B /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 895E585A1CEF7FA900352E5B /* Image1.png */; };
-		895E58601CEF895B00352E5B /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 895E585E1CEF895B00352E5B /* image2.png */; };
-		895E58611CEF895B00352E5B /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 895E585F1CEF895B00352E5B /* image3.png */; };
+		892220A71CEFC0C80013D7F1 /* AutoImageFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892220A51CEFC0C80013D7F1 /* AutoImageFlipper.swift */; };
+		892220A81CEFC0C80013D7F1 /* AutoImageFlipperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892220A61CEFC0C80013D7F1 /* AutoImageFlipperDelegate.swift */; };
+		892220AE1CEFC1290013D7F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892220A91CEFC1290013D7F1 /* AppDelegate.swift */; };
+		892220B11CEFC1290013D7F1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 892220AC1CEFC1290013D7F1 /* Info.plist */; };
+		892220B21CEFC1290013D7F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892220AD1CEFC1290013D7F1 /* ViewController.swift */; };
+		892220B71CEFC1570013D7F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892220B31CEFC1570013D7F1 /* LaunchScreen.storyboard */; };
+		892220B81CEFC1570013D7F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892220B51CEFC1570013D7F1 /* Main.storyboard */; };
+		892220BC1CEFC1980013D7F1 /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 892220B91CEFC1980013D7F1 /* Image1.png */; };
+		892220BD1CEFC1980013D7F1 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 892220BA1CEFC1980013D7F1 /* image2.png */; };
+		892220BE1CEFC1980013D7F1 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 892220BB1CEFC1980013D7F1 /* image3.png */; };
+		892220C31CEFC29A0013D7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892220C21CEFC29A0013D7F1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		895E58201CEF6E9C00352E5B /* Auto Image Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Auto Image Flipper.app"; path = "/Users/SinaKH/Documents/Projects/iOS/Auto Image Flipper/build/Debug-iphoneos/Auto Image Flipper.app"; sourceTree = "<absolute>"; };
-		895E58231CEF6E9C00352E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		895E58251CEF6E9C00352E5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		895E58281CEF6E9C00352E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		895E582A1CEF6E9C00352E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		895E582D1CEF6E9C00352E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		895E582F1CEF6E9C00352E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		895E58521CEF6F4700352E5B /* AutoImageFlipper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoImageFlipper.swift; path = "Auto Image Flipper/AutoImageFlipper.swift"; sourceTree = "<group>"; };
-		895E58541CEF77D600352E5B /* AutoImageFlipperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoImageFlipperDelegate.swift; sourceTree = "<group>"; };
-		895E585A1CEF7FA900352E5B /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
-		895E585E1CEF895B00352E5B /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
-		895E585F1CEF895B00352E5B /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		892220A41CEFB5D60013D7F1 /* Auto Image Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Image Flipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		892220A51CEFC0C80013D7F1 /* AutoImageFlipper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoImageFlipper.swift; path = "Auto Image Flipper/Library/AutoImageFlipper.swift"; sourceTree = "<group>"; };
+		892220A61CEFC0C80013D7F1 /* AutoImageFlipperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoImageFlipperDelegate.swift; path = "Auto Image Flipper/Library/AutoImageFlipperDelegate.swift"; sourceTree = "<group>"; };
+		892220A91CEFC1290013D7F1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example/AppDelegate.swift; sourceTree = "<group>"; };
+		892220AC1CEFC1290013D7F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
+		892220AD1CEFC1290013D7F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
+		892220B41CEFC1570013D7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892220B61CEFC1570013D7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892220B91CEFC1980013D7F1 /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image1.png; path = Example/Images/Image1.png; sourceTree = "<group>"; };
+		892220BA1CEFC1980013D7F1 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = Example/Images/image2.png; sourceTree = "<group>"; };
+		892220BB1CEFC1980013D7F1 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = Example/Images/image3.png; sourceTree = "<group>"; };
+		892220C21CEFC29A0013D7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,42 +46,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		892220C11CEFC1CF0013D7F1 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				892220C21CEFC29A0013D7F1 /* Assets.xcassets */,
+				892220B31CEFC1570013D7F1 /* LaunchScreen.storyboard */,
+				892220A91CEFC1290013D7F1 /* AppDelegate.swift */,
+				892220AC1CEFC1290013D7F1 /* Info.plist */,
+			);
+			name = OtherFiles;
+			sourceTree = "<group>";
+		};
 		895E58171CEF6E9C00352E5B = {
 			isa = PBXGroup;
 			children = (
 				895E58221CEF6E9C00352E5B /* Auto Image Flipper */,
+				892220A41CEFB5D60013D7F1 /* Auto Image Flipper.app */,
 			);
 			sourceTree = "<group>";
 		};
 		895E58221CEF6E9C00352E5B /* Auto Image Flipper */ = {
 			isa = PBXGroup;
 			children = (
-				895E58511CEF6EB000352E5B /* Auto Image Flipper */,
+				895E58511CEF6EB000352E5B /* Library */,
 				895E58561CEF7BD600352E5B /* Example */,
-				895E582A1CEF6E9C00352E5B /* Assets.xcassets */,
-				895E582F1CEF6E9C00352E5B /* Info.plist */,
 			);
 			path = "Auto Image Flipper";
 			sourceTree = "<group>";
 		};
-		895E58511CEF6EB000352E5B /* Auto Image Flipper */ = {
+		895E58511CEF6EB000352E5B /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				895E58521CEF6F4700352E5B /* AutoImageFlipper.swift */,
-				895E58541CEF77D600352E5B /* AutoImageFlipperDelegate.swift */,
+				892220A51CEFC0C80013D7F1 /* AutoImageFlipper.swift */,
+				892220A61CEFC0C80013D7F1 /* AutoImageFlipperDelegate.swift */,
 			);
-			name = "Auto Image Flipper";
+			name = Library;
 			path = ..;
 			sourceTree = "<group>";
 		};
 		895E58561CEF7BD600352E5B /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				892220B51CEFC1570013D7F1 /* Main.storyboard */,
+				892220AD1CEFC1290013D7F1 /* ViewController.swift */,
 				895E58571CEF7C0100352E5B /* Images */,
-				895E58231CEF6E9C00352E5B /* AppDelegate.swift */,
-				895E58251CEF6E9C00352E5B /* ViewController.swift */,
-				895E58271CEF6E9C00352E5B /* Main.storyboard */,
-				895E582C1CEF6E9C00352E5B /* LaunchScreen.storyboard */,
+				892220C11CEFC1CF0013D7F1 /* OtherFiles */,
 			);
 			name = Example;
 			sourceTree = "<group>";
@@ -88,9 +98,9 @@
 		895E58571CEF7C0100352E5B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				895E585A1CEF7FA900352E5B /* Image1.png */,
-				895E585E1CEF895B00352E5B /* image2.png */,
-				895E585F1CEF895B00352E5B /* image3.png */,
+				892220B91CEFC1980013D7F1 /* Image1.png */,
+				892220BA1CEFC1980013D7F1 /* image2.png */,
+				892220BB1CEFC1980013D7F1 /* image3.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -112,7 +122,7 @@
 			);
 			name = "Auto Image Flipper";
 			productName = "Auto Image Flipper";
-			productReference = 895E58201CEF6E9C00352E5B /* Auto Image Flipper.app */;
+			productReference = 892220A41CEFB5D60013D7F1 /* Auto Image Flipper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,12 +163,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895E582E1CEF6E9C00352E5B /* LaunchScreen.storyboard in Resources */,
-				895E58611CEF895B00352E5B /* image3.png in Resources */,
-				895E58601CEF895B00352E5B /* image2.png in Resources */,
-				895E585B1CEF7FA900352E5B /* Image1.png in Resources */,
-				895E582B1CEF6E9C00352E5B /* Assets.xcassets in Resources */,
-				895E58291CEF6E9C00352E5B /* Main.storyboard in Resources */,
+				892220B81CEFC1570013D7F1 /* Main.storyboard in Resources */,
+				892220BE1CEFC1980013D7F1 /* image3.png in Resources */,
+				892220BD1CEFC1980013D7F1 /* image2.png in Resources */,
+				892220BC1CEFC1980013D7F1 /* Image1.png in Resources */,
+				892220C31CEFC29A0013D7F1 /* Assets.xcassets in Resources */,
+				892220B11CEFC1290013D7F1 /* Info.plist in Resources */,
+				892220B71CEFC1570013D7F1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,30 +180,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895E58261CEF6E9C00352E5B /* ViewController.swift in Sources */,
-				895E58241CEF6E9C00352E5B /* AppDelegate.swift in Sources */,
-				895E58551CEF77D600352E5B /* AutoImageFlipperDelegate.swift in Sources */,
-				895E58531CEF6F4700352E5B /* AutoImageFlipper.swift in Sources */,
+				892220AE1CEFC1290013D7F1 /* AppDelegate.swift in Sources */,
+				892220A81CEFC0C80013D7F1 /* AutoImageFlipperDelegate.swift in Sources */,
+				892220B21CEFC1290013D7F1 /* ViewController.swift in Sources */,
+				892220A71CEFC0C80013D7F1 /* AutoImageFlipper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		895E58271CEF6E9C00352E5B /* Main.storyboard */ = {
+		892220B31CEFC1570013D7F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				895E58281CEF6E9C00352E5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		895E582C1CEF6E9C00352E5B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				895E582D1CEF6E9C00352E5B /* Base */,
+				892220B41CEFC1570013D7F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		892220B51CEFC1570013D7F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892220B61CEFC1570013D7F1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,7 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Auto Image Flipper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Auto Image Flipper/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ir.SinaKhalili.Auto-Image-Flipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,7 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Auto Image Flipper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Auto Image Flipper/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ir.SinaKhalili.Auto-Image-Flipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,6 +335,7 @@
 				895E584A1CEF6E9C00352E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
