@@ -12,27 +12,27 @@ Just copy the files in `Library` folder into your project !
 ---
 **I suggest you to just Open and Try the example project in AutoImageFlipper folder**
 
-* ##### 1. Create the ciew
+  * ##### 1. Create the ciew
 
-Create a UIView and set it's class to AutoImageFlipper
+  Create a UIView and set it's class to AutoImageFlipper
 
-* ##### 2. Set images
+  * ##### 2. Set images
 
-After creating the outlet for your flipper view, just set the images like this
+  After creating the outlet for your flipper view, just set the images like this
 
   ```sh
   autoImageFlipper.addImage( UIImage(named: "image1")! )
   ```
 
-* ##### 3. Play Next!
+  * ##### 3. Play Next!
 
-Start the play!
+  Start the play!
 
-```sh
-autoImageFlipper.playNext()
-```
+  ```sh
+  autoImageFlipper.playNext()
+  ```
 
-Now you should be able to see the beautiful `AutoImageFlipper` view !
+  Now you should be able to see the beautiful `AutoImageFlipper` view !
 
 # Optional Features
 ---
