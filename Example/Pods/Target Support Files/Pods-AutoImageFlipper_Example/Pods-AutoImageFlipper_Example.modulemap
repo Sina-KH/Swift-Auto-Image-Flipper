@@ -1,0 +1,6 @@
+framework module Pods_AutoImageFlipper_Example {
+  umbrella header "Pods-AutoImageFlipper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

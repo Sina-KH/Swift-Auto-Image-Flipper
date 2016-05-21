@@ -1,0 +1,5 @@
+use_frameworks!
+
+target ‘AutoImageFlipper_Example’ do
+	pod 'AutoImageFlipper', :path => ‘../’
+end

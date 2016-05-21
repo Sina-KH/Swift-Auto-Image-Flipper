@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CAAE5790305830180A97D06538C1C1 /* AutoImageFlipper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C696AC59C5CF608797D433C7647BF30D /* AutoImageFlipper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEC2744F1F43F888107BEF483F7C004 /* AutoImageFlipperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2946407D80734E381AC2A80D20DE4680 /* AutoImageFlipperDelegate.swift */; };
+		A18FA6C686F1AF78E4076CA1B3EBF243 /* AutoImageFlipper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFAD4ADBF6D5C91C1F0C6C2CF5C6CF1 /* AutoImageFlipper-dummy.m */; };
+		CED7CA996250564A3D403E10588BDAA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		D7BE92CCEDAE0D09FDD0E54A052B7F2A /* AutoImageFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2CB41394BF71164121AF817697F1A /* AutoImageFlipper.swift */; };
+		E2085C2068FD173EFCDFF0A11EDE0922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		E64C7075F13DD3F9ADC9525FE7183D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		EABFC20EC5605FFDA3DB3F648A14DD60 /* Pods-AutoImageFlipper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C01E5A684342C06E6605847E0168A5A5 /* Pods-AutoImageFlipper_Example-dummy.m */; };
+		F372499C0BC05F9CB7051BAB1E85A802 /* Pods-AutoImageFlipper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320CE24042BCEE764D9ECF6EBA8E76FB /* Pods-AutoImageFlipper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A4D361FA7F3EB46222C3801EE0BD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E721EC8B5CCBC4DE828667C1B1CAB824;
+			remoteInfo = AutoImageFlipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4B2CB392A2A2041C167DA5B38D93EC /* Pods-AutoImageFlipper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoImageFlipper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		18A8E7217A2F4039E50705F6FF725D7D /* Pods-AutoImageFlipper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoImageFlipper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2946407D80734E381AC2A80D20DE4680 /* AutoImageFlipperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoImageFlipperDelegate.swift; sourceTree = "<group>"; };
+		320CE24042BCEE764D9ECF6EBA8E76FB /* Pods-AutoImageFlipper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoImageFlipper_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C1148FBB882DDAFE3FCF9C8351B6169 /* Pods-AutoImageFlipper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoImageFlipper_Example-resources.sh"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		700C6248051CE45041CF45D846C9266D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9192A847A216808A893CEB0A2EEAF58F /* AutoImageFlipper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoImageFlipper-prefix.pch"; sourceTree = "<group>"; };
+		945372D74A972E7B0F32E2142E08D28A /* Pods-AutoImageFlipper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoImageFlipper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96D880142B5D6FF8F7D0327D6A82549C /* Pods_AutoImageFlipper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoImageFlipper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97832F4826D13BB83D736AFE7487F817 /* Pods-AutoImageFlipper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoImageFlipper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9987337BAA4C10CB55AC63AA6741E18F /* Pods-AutoImageFlipper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoImageFlipper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A63D1DFCE8D987365C7F9C09AE0AFE3E /* AutoImageFlipper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AutoImageFlipper.modulemap; sourceTree = "<group>"; };
+		AD494CD17DCED31CFC69AD1B221B274A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C01E5A684342C06E6605847E0168A5A5 /* Pods-AutoImageFlipper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoImageFlipper_Example-dummy.m"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6132D71D65779702DD62C5DFD2096C3 /* AutoImageFlipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoImageFlipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C696AC59C5CF608797D433C7647BF30D /* AutoImageFlipper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoImageFlipper-umbrella.h"; sourceTree = "<group>"; };
+		CED2CB41394BF71164121AF817697F1A /* AutoImageFlipper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoImageFlipper.swift; sourceTree = "<group>"; };
+		DB2C217BC3536A8A34FF41BBAD3425C3 /* Pods-AutoImageFlipper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AutoImageFlipper_Example.modulemap"; sourceTree = "<group>"; };
+		DEFAD4ADBF6D5C91C1F0C6C2CF5C6CF1 /* AutoImageFlipper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoImageFlipper-dummy.m"; sourceTree = "<group>"; };
+		F1871F8C835664D3CF210DD7D701A47B /* AutoImageFlipper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoImageFlipper.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91195EDA5AF207D7573ED1FB8848F0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C7075F13DD3F9ADC9525FE7183D32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95793CD9DA5F84AA77648D9B5FF778A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2085C2068FD173EFCDFF0A11EDE0922 /* Foundation.framework in Frameworks */,
+				CED7CA996250564A3D403E10588BDAA1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056C292B5FFB9499B8B3ECE00CEF11E7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BD8FEFEA59BDD8A06AE269DE86311 /* AutoImageFlipper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		19142ACB63A3BD50C914A241FF4D4947 /* Pods-AutoImageFlipper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AD494CD17DCED31CFC69AD1B221B274A /* Info.plist */,
+				DB2C217BC3536A8A34FF41BBAD3425C3 /* Pods-AutoImageFlipper_Example.modulemap */,
+				945372D74A972E7B0F32E2142E08D28A /* Pods-AutoImageFlipper_Example-acknowledgements.markdown */,
+				9987337BAA4C10CB55AC63AA6741E18F /* Pods-AutoImageFlipper_Example-acknowledgements.plist */,
+				C01E5A684342C06E6605847E0168A5A5 /* Pods-AutoImageFlipper_Example-dummy.m */,
+				18A8E7217A2F4039E50705F6FF725D7D /* Pods-AutoImageFlipper_Example-frameworks.sh */,
+				5C1148FBB882DDAFE3FCF9C8351B6169 /* Pods-AutoImageFlipper_Example-resources.sh */,
+				320CE24042BCEE764D9ECF6EBA8E76FB /* Pods-AutoImageFlipper_Example-umbrella.h */,
+				0E4B2CB392A2A2041C167DA5B38D93EC /* Pods-AutoImageFlipper_Example.debug.xcconfig */,
+				97832F4826D13BB83D736AFE7487F817 /* Pods-AutoImageFlipper_Example.release.xcconfig */,
+			);
+			name = "Pods-AutoImageFlipper_Example";
+			path = "Target Support Files/Pods-AutoImageFlipper_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4398DF2EE016CF2FEF4C697DB1B1DAA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CED2CB41394BF71164121AF817697F1A /* AutoImageFlipper.swift */,
+				2946407D80734E381AC2A80D20DE4680 /* AutoImageFlipperDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48BCD883277620004AFE926255FFEACA /* AutoImageFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				4398DF2EE016CF2FEF4C697DB1B1DAA5 /* Classes */,
+			);
+			path = AutoImageFlipper;
+			sourceTree = "<group>";
+		};
+		57CA11314739798DC7B3950FF5DDF46A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63D1DFCE8D987365C7F9C09AE0AFE3E /* AutoImageFlipper.modulemap */,
+				F1871F8C835664D3CF210DD7D701A47B /* AutoImageFlipper.xcconfig */,
+				DEFAD4ADBF6D5C91C1F0C6C2CF5C6CF1 /* AutoImageFlipper-dummy.m */,
+				9192A847A216808A893CEB0A2EEAF58F /* AutoImageFlipper-prefix.pch */,
+				C696AC59C5CF608797D433C7647BF30D /* AutoImageFlipper-umbrella.h */,
+				700C6248051CE45041CF45D846C9266D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AutoImageFlipper";
+			sourceTree = "<group>";
+		};
+		7B41360F05993D6B951A55DC1B09973F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19142ACB63A3BD50C914A241FF4D4947 /* Pods-AutoImageFlipper_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				056C292B5FFB9499B8B3ECE00CEF11E7 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				ACB015BBA908E877ED1959B4F4B853EB /* Products */,
+				7B41360F05993D6B951A55DC1B09973F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7BD8FEFEA59BDD8A06AE269DE86311 /* AutoImageFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				48BCD883277620004AFE926255FFEACA /* AutoImageFlipper */,
+				57CA11314739798DC7B3950FF5DDF46A /* Support Files */,
+			);
+			name = AutoImageFlipper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACB015BBA908E877ED1959B4F4B853EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6132D71D65779702DD62C5DFD2096C3 /* AutoImageFlipper.framework */,
+				96D880142B5D6FF8F7D0327D6A82549C /* Pods_AutoImageFlipper_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEBF634999C803FDE860D1FC7054C5D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F372499C0BC05F9CB7051BAB1E85A802 /* Pods-AutoImageFlipper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DCC575DAE9F2171E451DB9FC41A0C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CAAE5790305830180A97D06538C1C1 /* AutoImageFlipper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2343A0B88664177F53B6A9ECDC00AB12 /* Pods-AutoImageFlipper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0007F1C74E2AB62FE0E227770BAB37 /* Build configuration list for PBXNativeTarget "Pods-AutoImageFlipper_Example" */;
+			buildPhases = (
+				1535FB4AB48DFC57028BFD465032F222 /* Sources */,
+				91195EDA5AF207D7573ED1FB8848F0FB /* Frameworks */,
+				CEBF634999C803FDE860D1FC7054C5D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5C5ECF00B73828F2A7098F9D5F2B9F /* PBXTargetDependency */,
+			);
+			name = "Pods-AutoImageFlipper_Example";
+			productName = "Pods-AutoImageFlipper_Example";
+			productReference = 96D880142B5D6FF8F7D0327D6A82549C /* Pods_AutoImageFlipper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E721EC8B5CCBC4DE828667C1B1CAB824 /* AutoImageFlipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CC28938BBFE2C6ADEC0B13198FEC08 /* Build configuration list for PBXNativeTarget "AutoImageFlipper" */;
+			buildPhases = (
+				F691946BD6CD9DF475F146C0EA9DD9A9 /* Sources */,
+				95793CD9DA5F84AA77648D9B5FF778A3 /* Frameworks */,
+				D8DCC575DAE9F2171E451DB9FC41A0C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoImageFlipper;
+			productName = AutoImageFlipper;
+			productReference = C6132D71D65779702DD62C5DFD2096C3 /* AutoImageFlipper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ACB015BBA908E877ED1959B4F4B853EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E721EC8B5CCBC4DE828667C1B1CAB824 /* AutoImageFlipper */,
+				2343A0B88664177F53B6A9ECDC00AB12 /* Pods-AutoImageFlipper_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1535FB4AB48DFC57028BFD465032F222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABFC20EC5605FFDA3DB3F648A14DD60 /* Pods-AutoImageFlipper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F691946BD6CD9DF475F146C0EA9DD9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FA6C686F1AF78E4076CA1B3EBF243 /* AutoImageFlipper-dummy.m in Sources */,
+				D7BE92CCEDAE0D09FDD0E54A052B7F2A /* AutoImageFlipper.swift in Sources */,
+				7AEC2744F1F43F888107BEF483F7C004 /* AutoImageFlipperDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5C5ECF00B73828F2A7098F9D5F2B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoImageFlipper;
+			target = E721EC8B5CCBC4DE828667C1B1CAB824 /* AutoImageFlipper */;
+			targetProxy = D5A4D361FA7F3EB46222C3801EE0BD3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		89835FEFD64AEEF73C67C168B9BD0171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1871F8C835664D3CF210DD7D701A47B /* AutoImageFlipper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoImageFlipper/AutoImageFlipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoImageFlipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoImageFlipper/AutoImageFlipper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AutoImageFlipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B80D715C571B2DB4706AC02457A0BBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1871F8C835664D3CF210DD7D701A47B /* AutoImageFlipper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoImageFlipper/AutoImageFlipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoImageFlipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoImageFlipper/AutoImageFlipper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AutoImageFlipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6DF7365EBD7778BC4ED38E764AAFDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4B2CB392A2A2041C167DA5B38D93EC /* Pods-AutoImageFlipper_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoImageFlipper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoImageFlipper_Example/Pods-AutoImageFlipper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AutoImageFlipper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7A1459AD7717ABDB894B3C88A205C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97832F4826D13BB83D736AFE7487F817 /* Pods-AutoImageFlipper_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoImageFlipper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoImageFlipper_Example/Pods-AutoImageFlipper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AutoImageFlipper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0007F1C74E2AB62FE0E227770BAB37 /* Build configuration list for PBXNativeTarget "Pods-AutoImageFlipper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DF7365EBD7778BC4ED38E764AAFDA9 /* Debug */,
+				D7A1459AD7717ABDB894B3C88A205C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CC28938BBFE2C6ADEC0B13198FEC08 /* Build configuration list for PBXNativeTarget "AutoImageFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80D715C571B2DB4706AC02457A0BBDF /* Debug */,
+				89835FEFD64AEEF73C67C168B9BD0171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

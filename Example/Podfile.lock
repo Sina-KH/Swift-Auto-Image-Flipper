@@ -1,0 +1,14 @@
+PODS:
+  - AutoImageFlipper (0.8.0)
+
+DEPENDENCIES:
+  - AutoImageFlipper (from `../`)
+
+EXTERNAL SOURCES:
+  AutoImageFlipper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AutoImageFlipper: 58bcae7be3f3b9c0c2537f2784ef828564108c59
+
+COCOAPODS: 0.39.0

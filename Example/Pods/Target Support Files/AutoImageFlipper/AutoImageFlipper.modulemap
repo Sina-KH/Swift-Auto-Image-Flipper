@@ -1,0 +1,6 @@
+framework module AutoImageFlipper {
+  umbrella header "AutoImageFlipper-umbrella.h"
+
+  export *
+  module * { export * }
+}
