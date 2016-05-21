@@ -1,4 +1,4 @@
-# Swift-Auto-Image-Flipper (v0.8)
+# Swift-Auto-Image-Flipper (v0.8.1)
 
 Show an array of images scequetially, with `fade in`, `move` and `fade out` effects, beautifully; like this:
 
@@ -11,20 +11,20 @@ Show an array of images scequetially, with `fade in`, `move` and `fade out` effe
 use_frameworks!
 pod 'AutoImageFlipper'
 ```
-**OR**
+**Manually**
 
-Just copy the files in `Library` folder into your project !
+Just copy the `AutoImageFlipper` folder into your project !
 
 # Usage
 ---
-**I suggest you to just Open and Try the example project in AutoImageFlipper folder**
+**I suggest you to just Open and Try the example project first**
 
-* ##### 1. Create the view
+* 1. Create the view
 
 Create a UIView and set it's class to AutoImageFlipper
 If you are using CocoaPods, then just simply `import AutoImageFlipper`, too.
 
-* ##### 2. Set images
+* 2. Set images
 
 After creating the outlet for your flipper view, just set the images like this
 
@@ -32,7 +32,7 @@ After creating the outlet for your flipper view, just set the images like this
 autoImageFlipper.addImage( UIImage(named: "image1")! )
 ```
 
-* ##### 3. Play Next!
+* 3. Play Next!
 
 Start the play!
 
