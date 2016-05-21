@@ -22,6 +22,14 @@ Just copy the files in `Library` folder into your project !
   ```sh
   autoImageFlipper.addImage( UIImage(named: "image1")! )
   ```
+  
+* ##### 3. Play Next!
+
+  Start the play!
+
+  ```sh
+  autoImageFlipper.playNext()
+  ```
 
   Now you should be able to see the beautiful `AutoImageFlipper` view !
 
@@ -71,4 +79,5 @@ Use number 4/3 for 4:3 ratio for example
 
 ```sh
 autoImageFlipper.ratio = 4/3
+autoImageFlipper.playNext()   // needed, because setting new ratio stops the play
 ```
