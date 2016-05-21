@@ -1,6 +1,6 @@
 //
 //  AutoImageFlipper.swift
-//  Auto Image Flipper v0.7.1
+//  Auto Image Flipper v0.8.1
 //
 //  Created by Sina Khalili on 5/20/16.
 //  Copyright © 2016 Sina Khalili. All rights reserved.
@@ -8,20 +8,20 @@
 
 import UIKit
 
-class AutoImageFlipper: UIView {
+public class AutoImageFlipper: UIView {
     
     private var imageView1 = UIImageView()
     private var imageView2 = UIImageView()
     private var visibleImageView = 1
     
-    private(set) var images = [UIImage]()
-    private(set) var lastPlayed = -1
-    private(set) var showingImage = -1
+    public private(set) var images = [UIImage]()
+    public private(set) var lastPlayed = -1
+    public private(set) var showingImage = -1
     
     private var imageViewAlpha: CGFloat = 0.7
 
     private var ratioValue: CGFloat = 4/3
-    var ratio : CGFloat {
+    public var ratio : CGFloat {
         set {
             ratioValue = newValue
             setupRatio()
@@ -31,8 +31,8 @@ class AutoImageFlipper: UIView {
         }
     }
     
-    var fadeInTimeValue: Double = 3
-    var fadeInTime : Double {
+    public var fadeInTimeValue: Double = 3
+    public var fadeInTime : Double {
         set {
             if newValue < showTime - fadeOutTime {
                 fadeInTimeValue = newValue
@@ -45,8 +45,8 @@ class AutoImageFlipper: UIView {
         }
     }
 
-    var fadeOutTimeValue: Double = 3
-    var fadeOutTime : Double {
+    public var fadeOutTimeValue: Double = 3
+    public var fadeOutTime : Double {
         set {
             if newValue < showTime - fadeInTime {
                 fadeOutTimeValue = newValue
@@ -59,8 +59,8 @@ class AutoImageFlipper: UIView {
         }
     }
     
-    var showTimeValue: Double = 10
-    var showTime : Double {
+    public var showTimeValue: Double = 10
+    public var showTime : Double {
         set {
             if newValue < fadeInTime + fadeOutTime {
                 showTimeValue = newValue
@@ -73,16 +73,16 @@ class AutoImageFlipper: UIView {
         }
     }
     
-    var moveDirection = AutoImageFlipperMoveDirection.Left
+    public var moveDirection = AutoImageFlipperMoveDirection.Left
 
-    var delegate: AutoImageFlipperDelegate?
+    public var delegate: AutoImageFlipperDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setup()
     }
@@ -203,7 +203,7 @@ class AutoImageFlipper: UIView {
      
      Plays next image on the screen (and plays first image on start)
      */
-    func playNext() {
+    public func playNext() {
 
         // Check if delegate pushes any image to show
         var image: UIImage? = delegate?.autoImageFlipper(self, lastPlayed: showingImage)
@@ -247,7 +247,7 @@ class AutoImageFlipper: UIView {
      
      - parameter image: image
      */
-    func addImage(image: UIImage) {
+    public func addImage(image: UIImage) {
         images.append(image)
     }
 
@@ -261,7 +261,7 @@ class AutoImageFlipper: UIView {
      
      - returns: Success
      */
-    func removeImageAtIndex(index: Int) -> Bool {
+    public func removeImageAtIndex(index: Int) -> Bool {
         if images.count > index {
             images.removeAtIndex(index)
             return true
@@ -276,12 +276,12 @@ class AutoImageFlipper: UIView {
      Remove all images
      
      */
-    func removeAllImages() {
+    public func removeAllImages() {
         images.removeAll()
     }
     
 }
 
-enum AutoImageFlipperMoveDirection: Int {
+public enum AutoImageFlipperMoveDirection: Int {
     case Left = -1, Right = 1
 }

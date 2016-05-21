@@ -17,8 +17,8 @@ class ViewController: UIViewController, AutoImageFlipperDelegate {
         super.viewDidLoad()
         
         autoImageFlipper.delegate = self
-        autoImageFlipper.addImage(UIImage(named: "image1")!)
-        autoImageFlipper.addImage(UIImage(named: "image3")!)
+        autoImageFlipper.addImage(UIImage(named: "Images/image1")!)
+        autoImageFlipper.addImage(UIImage(named: "Images/image3")!)
         autoImageFlipper.playNext()
     }
     
@@ -44,7 +44,7 @@ class ViewController: UIViewController, AutoImageFlipperDelegate {
         
         // to test passing images from here
         if lastPlayed == 0 {
-            return UIImage(named: "image2")
+            return UIImage(named: "Images/image2")
         }
         return nil
     }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AutoImageFlipper'
-  s.version          = '0.8.0'
+  s.version          = '0.8.1'
 s.summary          = 'Show an array of images scequetially, with fade in, move and fade out effects, beautifully.'
 
   s.description      = <<-DESC

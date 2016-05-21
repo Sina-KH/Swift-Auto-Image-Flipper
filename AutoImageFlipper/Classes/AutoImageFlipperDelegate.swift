@@ -1,6 +1,6 @@
 //
 //  AutoImageFlipperDelegate.swift
-//  Auto Image Flipper v0.7.1
+//  Auto Image Flipper v0.8.1
 //
 //  Created by Sina Khalili on 5/20/16.
 //  Copyright © 2016 Sina Khalili. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 
 @objc
-protocol AutoImageFlipperDelegate {
+public protocol AutoImageFlipperDelegate {
     
     optional func autoImageFlipper(autoImageFlipper: AutoImageFlipper, willPlayImage: UIImage, onImageView: UIImageView)
     optional func autoImageFlipper(autoImageFlipper: AutoImageFlipper, didPlayImage: UIImage)
