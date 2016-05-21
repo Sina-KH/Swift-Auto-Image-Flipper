@@ -12,7 +12,7 @@ It can be used as the background of UIViewControllers with fade, like many many 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SinaKH' => 'mr.sina.khalili@gmail.com' }
   s.source           = { :git => 'https://github.com/sina-kh/Swift-Auto-Image-Flipper.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/KH_Sina'
+#  s.social_media_url = 'https://twitter.com/KH_Sina'
 
   s.ios.deployment_target = '8.0'
 
