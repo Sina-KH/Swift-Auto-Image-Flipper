@@ -1,4 +1,4 @@
-# Swift-Auto-Image-Flipper (v0.8.1)
+# Swift-Auto-Image-Flipper (v0.8.2)
 
 Show an array of images scequetially, with `fade in`, `move` and `fade out` effects, beautifully; like this:
 
@@ -62,6 +62,17 @@ optional func autoImageFlipper(autoImageFlipper: AutoImageFlipper, didPlayImage:
 ```sh
 func autoImageFlipper(autoImageFlipper: AutoImageFlipper, lastPlayed: Int) -> UIImage?
 ```
+
+# Fading of the ImageViews
+
+You can set it like this:
+
+```sh
+autoImageFlipper.imageViewAlpha = 0.7
+```
+
+and it will be available from next fade in effect!
+
 
 # Direction
 

@@ -1,6 +1,6 @@
 //
 //  AutoImageFlipper.swift
-//  Auto Image Flipper v0.8.1
+//  Auto Image Flipper v0.8.2
 //
 //  Created by Sina Khalili on 5/20/16.
 //  Copyright © 2016 Sina Khalili. All rights reserved.
@@ -18,7 +18,7 @@ public class AutoImageFlipper: UIView {
     public private(set) var lastPlayed = -1
     public private(set) var showingImage = -1
     
-    private var imageViewAlpha: CGFloat = 0.7
+    public var imageViewAlpha: CGFloat = 0.7
 
     private var ratioValue: CGFloat = 4/3
     public var ratio : CGFloat {
