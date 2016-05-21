@@ -18,6 +18,7 @@ class ViewController: UIViewController, AutoImageFlipperDelegate {
         autoImageFlipper.delegate = self
         autoImageFlipper.addImage(UIImage(named: "image1")!)
         autoImageFlipper.addImage(UIImage(named: "image3")!)
+        autoImageFlipper.playNext()
     }
 
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
