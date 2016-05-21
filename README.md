@@ -74,7 +74,7 @@ autoImageFlipper.direction = .Right
 
 # Fading Times
 
-You can set them like this ( **Notice** that you should **set ShowTime first**, otherwise it won't be set if fading times don't match the equation: `ShowTime > FadeInTime + FadeOutTime` )
+You can set them like this ( **Notice** that you should **set ShowTime first**, otherwise it won't be set if fading times don't match the equation: `ShowTime >= FadeInTime + FadeOutTime` )
 
 ```sh
 autoImageFlipper.showTime = 10
