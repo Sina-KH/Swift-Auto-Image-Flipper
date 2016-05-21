@@ -23,23 +23,10 @@ After creating the outlet for your flipper view, just set the images like this
   ```sh
   autoImageFlipper.addImage( UIImage(named: "image1")! )
   ```
-  
-* ##### 3. Play Next!
-
-  Start the play!
-
-  ```sh
-  autoImageFlipper.playNext()
-  ```
-=======
-```sh
-autoImageFlipper.addImage( UIImage(named: "image1")! )
-```
 
 * ##### 3. Play Next!
 
 Start the play!
->>>>>>> Stashed changes
 
 ```sh
 autoImageFlipper.playNext()
