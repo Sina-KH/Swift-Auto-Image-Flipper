@@ -2,7 +2,7 @@
 
 Show an array of images scequetially, with `fade in`, `move` and `fade out` effects, beautifully; like this:
 
-![alt tag](https://raw.githubusercontent.com/sina-kh/Swift-Auto-Image-Flipper/master/Auto%20Image%20Flipper/Demo.gif)
+![alt tag](https://raw.githubusercontent.com/sina-kh/Swift-Auto-Image-Flipper/master/Auto%20Image%20Flipper/Example/Demo.gif)
 
 # Installation
 ---
